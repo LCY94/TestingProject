@@ -20,6 +20,7 @@
         </activity>
         <activity android:name=".cardview" android:label="TARUC"></activity>
         <activity android:name=".rview.rviewMain" android:label="TARUC"></activity>
+        <activity android:name=".Information" android:label="TARUC"></activity>
         <activity android:name=".pro" android:label="TARUC"  android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

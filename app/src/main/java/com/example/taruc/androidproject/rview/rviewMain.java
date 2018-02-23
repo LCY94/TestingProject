@@ -17,6 +17,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.taruc.androidproject.Information;
 import com.example.taruc.androidproject.R;
 import com.example.taruc.androidproject.pro;
 
@@ -60,8 +61,14 @@ public class rviewMain extends AppCompatActivity {
                     @Override public void onItemClick(View view, int position) {
 
                     //    Toast.makeText(view.getContext(),position+"",Toast.LENGTH_LONG).show()
-                        Intent i = new Intent(view.getContext(),pro.class);
-                        startActivity(i);
+                        if(position==0) {
+                            Intent i = new Intent(view.getContext(), pro.class);
+                            startActivity(i);
+                        }
+                        else if(position==1){
+                            Intent i = new Intent(view.getContext(),Information.class);
+                            startActivity(i);
+                        }
                     }
 
                     @Override public void onLongItemClick(View view, int position) {

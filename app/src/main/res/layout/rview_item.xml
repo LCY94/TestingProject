@@ -17,7 +17,7 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/title"
+                android:id="@+id/tvtitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/thumbnail"
@@ -42,7 +42,7 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="39dp"
-                android:layout_below="@+id/title"
+                android:layout_below="@+id/tvtitle"
                 android:layout_marginBottom="32dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginStart="8dp"

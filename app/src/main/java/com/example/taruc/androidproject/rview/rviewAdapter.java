@@ -35,7 +35,7 @@ public class rviewAdapter extends RecyclerView.Adapter<rviewAdapter.ViewHolder>{
 
             super(v);
 
-            textView = (TextView)v.findViewById(R.id.title);
+            textView = (TextView)v.findViewById(R.id.tvtitle);
         }
     }
 
