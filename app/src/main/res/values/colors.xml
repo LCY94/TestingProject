@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e90a56</color>
+    <color name="indigo">#303F9F</color>
+    <color name="Lightindigo">#e90a56</color>
+    <color name="DarkIindigo">#002984</color>
+    <color name="red700">#d32f2f</color>
+    <color name="redPLight700">#ff6659</color>
+    <color name="white">#ffffff</color>
+    <color name="silver">#e0e0e0</color>
+    <color name="silverdark">#aeaeae</color>
+    <color name="black">#000000</color>
+    <color name="redPDark">#9a0007</color>
+    <color name="red400">#ef5350</color>
+    <color name="pink200">#f48fb1</color>
+    <color name="pink500">#e91e63</color>
+
+
+    <color name="year">#999999</color>
+    <color name="title">#222222</color>
+</resources>
