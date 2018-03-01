@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.example.taruc.androidproject.Information;
 import com.example.taruc.androidproject.R;
 import com.example.taruc.androidproject.pro;
+import com.example.taruc.androidproject.rviewContact;
 
 public class rviewMain extends AppCompatActivity {
     TextView tv1;
@@ -67,6 +68,10 @@ public class rviewMain extends AppCompatActivity {
                         }
                         else if(position==1){
                             Intent i = new Intent(view.getContext(),Information.class);
+                            startActivity(i);
+                        }
+                        else if(position==2){
+                            Intent i = new Intent(view.getContext(),rviewContact.class);
                             startActivity(i);
                         }
                     }
